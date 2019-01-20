@@ -7,3 +7,10 @@ describe('quickSort', function () {
     assert.deepEqual(quickSort(unsorted), [1, 2, 3, 4, 5]);
   });
 });
+
+describe('quickSort', function () {
+  it('can sort multiple arrays', function () {
+    unsorted = [5, 2, 3, 1, 4];
+    assert.deepEqual(quickSort(unsorted), [1, 2, 3, 4, 5]);
+  });
+});
